@@ -22,14 +22,13 @@
 
 .img-body {
     width: 300px;
-    max-width: 100%;
 }
 
 .image-ani {
     animation-name: image_ani;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    float: left;
+    float: left;   
 }
 
 @keyframes image_ani {
@@ -38,7 +37,7 @@
     }
 
     to {
-        margin-left: 300px;
+        margin-left: 27%;
     }
 }
 
@@ -47,17 +46,15 @@
     animation-name: text_ani;
    animation-duration: 2s;
    animation-fill-mode: forwards;
-   float: right;
- 
 }
 
 @keyframes text_ani {
     from{
-        margin-right:0;
+        margin-left:75%;
     }
 
     to {
-        margin-right: 380px;
+        margin-left: 50%;
     }
     
 }
@@ -120,3 +117,7 @@
 
 }
 
+.about {
+    width: 100%;
+    max-width: 1600px;
+}
